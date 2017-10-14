@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TelegramBot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TelegramBot_jar</output-path>
+    <root id="archive" name="TelegramBot.jar">
+      <element id="module-output" name="TelegramBot" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/gson-2.6.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/src/lib/telegrambots-3.3-jar-with-dependencies.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
