@@ -34,16 +34,16 @@ public class Bittrex {
     //for tests
     public Bittrex() {
         isActive = true;
-        apikey = "ab56aecc0c904becb7b187bd32583b32";
-        secret = "45d2a7a86edf429f93fad8f8fc873c27";
+        apikey = "";
+        secret = "";
     }
 
     public Bittrex(TBot bot) {
 
         //Consider to load these values from .properties file
         isActive = true;
-        apikey = "ab56aecc0c904becb7b187bd32583b32";
-        secret = "45d2a7a86edf429f93fad8f8fc873c27";
+        apikey = "";
+        secret = "";
         this.bot = bot;
         retryAttempts = 3;
         retryDelaySeconds = 15;
